@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThomasianFoodAdv</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_espana_act">Espana_act</string>
+    <string name="title_activity_dapitan_activity">Dapitan_activity</string>
+    <string name="title_activity_lacson_">Lacson_Activity</string>
+    <string name="title_activity_pnoval_activity">Pnoval_activity</string>
+
+</resources>
