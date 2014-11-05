@@ -7,48 +7,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.thomasianfoodadvisory.thomasianfoodadv.Espana_act$PlaceholderFragment"
-    android:background="@drawable/background">
-
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/elogo"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
-        android:background="@drawable/efood"
-        android:layout_below="@+id/imageButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
+    android:background="@drawable/bkforall"
+ >
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:background="@drawable/espanalist"
-        android:layout_below="@+id/imageButton2"
+        android:adjustViewBounds="false"
+        android:background="@drawable/listesp2"
+        android:layout_alignTop="@+id/backButton"
+        android:layout_toRightOf="@+id/backButton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
-    <Button
+
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/BackButton"
-        android:background="@drawable/return_arrow"
+        android:id="@+id/backButton"
+        android:background="@drawable/abc_ic_ab_back_holo_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:clickable="true"
-        android:onClick="Back"
-        android:layout_below="@+id/imageButton2"
-        android:layout_toLeftOf="@+id/imageView" />
-
+        android:onClick="Back"/>
 
 </RelativeLayout>
