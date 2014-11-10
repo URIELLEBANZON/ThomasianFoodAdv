@@ -28,7 +28,9 @@
         android:background="@drawable/magnify"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/imageView" />
+        android:layout_below="@+id/imageView"
+        android:clickable="true"
+        android:onClick="findStreet"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -112,6 +114,8 @@
         android:background="@drawable/map"
         android:layout_marginTop="48dp"
         android:layout_below="@+id/L_Button"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="mapStreet"/>
 
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.thomasianfoodadvisory.thomasianfoodadv;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -66,7 +67,21 @@ public class Main_Activity extends ActionBarActivity {
         // Do something in response to button
         Intent intent = new Intent(this, Pnoval_activity.class);//name of sub pages
         startActivity(intent);
-    }/**
+    }
+
+    public void findStreet (View view) {                                //copy sa mga main
+        // Do something in response to button
+        Intent i = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.google.com.ph/?gfe_rd=cr&ei=1IVgVMTqAYiK8QeavICQDA&gws_rd=ssl"));
+        startActivity(i);
+    }
+    public void mapStreet (View view) {                                //copy sa mga main
+        // Do something in response to button
+        Intent i = new Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://www.google.com.ph/maps/@14.5653015,121.0246344,11z?hl=en"));
+        startActivity(i);
+    }
+     /**
      * A placeholder fragment containing a simple view.
      */
     public static class PlaceholderFragment extends Fragment {
